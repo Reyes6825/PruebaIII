@@ -60,6 +60,7 @@ public class Registro extends javax.swing.JFrame {
         Direcc = new javax.swing.JTextField();
         Registrarse = new javax.swing.JButton();
         Volver = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -165,6 +166,9 @@ public class Registro extends javax.swing.JFrame {
             }
         });
         jPanel2.add(Volver, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 280, 130, 40));
+
+        jButton1.setText("jButton1");
+        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 130, -1, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 740, 350));
 
@@ -284,6 +288,7 @@ public class Registro extends javax.swing.JFrame {
     private javax.swing.JTextField Tel;
     private javax.swing.JTextField Usua;
     private javax.swing.JButton Volver;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
